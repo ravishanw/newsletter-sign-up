@@ -47,7 +47,7 @@ app.post("/", function(req,res){
     // Mailchimp npm module
 
     client.setConfig({
-        apiKey: "a8d8ea2ab9f3fac28fc20ad6c08891ea-us21",
+        apiKey: "1f0413ba2f119bd6822a7ca4f6c936b8-us21",
         server: "us21",
     });
 
@@ -67,7 +67,7 @@ app.listen(port,function(){
     console.log("Server is Ok");
 });
 
-// Mailchimp API key
+// Mailchimp Old API key
 // a8d8ea2ab9f3fac28fc20ad6c08891ea-us21
 
 // Mailchimp Audience ID
